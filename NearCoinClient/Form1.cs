@@ -78,7 +78,7 @@ namespace NearCoinClient
             }
 
 
-            if (!unlockAccountResult)
+            if (!unlockAccountResult) 
             {
                 this.tb_loglist.Text = "账户解锁失败,或密码错误!";
                 return;
